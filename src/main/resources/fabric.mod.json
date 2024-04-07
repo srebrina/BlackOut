@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "blackout",
+  "version": "${version}",
+  "name": "Blackout",
+  "description": "Epik cheetos addon.",
+  "authors": [
+    "KassuK and OLEPOSSU"
+  ],
+  "contact": {
+    "repo": "https://github.com/KassuK1/BlackOut/",
+    "discord": "https://discord.com/invite/mmWz9Dz4Y9"
+  },
+  "icon": "assets/blackout/logo.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "kassuk.addon.blackout.BlackOut"
+    ]
+  },
+  "mixins": [
+    "blackout.mixins.json"
+  ],
+  "accessWidener": "blackout.accesswidener",
+  "custom": {
+    "meteor-client:color": "225,25,25"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
