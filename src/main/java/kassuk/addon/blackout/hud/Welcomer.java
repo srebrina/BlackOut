@@ -62,3 +62,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
         renderer.text(text, x, y, textColor.get(), shadow.get(), scale.get());
     }
 }
+
