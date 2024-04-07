@@ -21,3 +21,4 @@ public class AntiCrawl extends BlackOutModule {
         super(BlackOut.BLACKOUT, "Anti Crawl", "Doesn't crawl or sneak when in low space (should be used on 1.12.2).");
     }
 }
+
