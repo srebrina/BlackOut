@@ -4,3 +4,4 @@ public enum SwingState {
     Pre,
     Post
 }
+
