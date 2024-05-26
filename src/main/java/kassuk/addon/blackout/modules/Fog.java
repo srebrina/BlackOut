@@ -70,3 +70,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
         RenderSystem.setShaderFogShape(shape.get());
     }
 }
+
