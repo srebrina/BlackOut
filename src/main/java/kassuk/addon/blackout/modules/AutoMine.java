@@ -1235,3 +1235,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
     private record Target(BlockPos pos, BlockPos crystalPos, MineType type, double priority, boolean civ, boolean manual) {
     }
 }
+
