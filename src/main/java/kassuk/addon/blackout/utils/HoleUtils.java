@@ -112,3 +112,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
             getHole(pos.add(0, 0, -1), 1).type == HoleType.Quad;
     }
 }
+
