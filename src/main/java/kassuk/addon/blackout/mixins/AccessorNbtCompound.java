@@ -31,3 +31,4 @@ public interface AccessorNbtCompound {
     @Accessor("entries")
     Map<String, NbtElement> getEntries();
 }
+
