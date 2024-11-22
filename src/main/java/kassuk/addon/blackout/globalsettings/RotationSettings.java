@@ -315,3 +315,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
         return mineTiming.get() == MiningRotMode.Start || mineTiming.get() == MiningRotMode.Double;
     }
 }
+
