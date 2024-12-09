@@ -78,3 +78,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
         ((IClientPlayerInteractionManager) mc.interactionManager).meteor$syncSelected();
     }
 }
+
