@@ -8,3 +8,4 @@ public enum RotationType {
     Use,
     Other // Antiaim and stuff
 }
+
