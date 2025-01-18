@@ -27,3 +27,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
     @Accessor("end")
     void setEnd(Vec3d end);
 }
+
