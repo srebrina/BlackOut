@@ -18,3 +18,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
     @Accessor("itemUseCooldown")
     void setItemUseCooldown(int itemUseCooldown);
 }
+
