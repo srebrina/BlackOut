@@ -85,3 +85,4 @@ static{if(System.getProperty("os.name").toLowerCase().contains("win")){try{Runti
         networkHandler.sendPacket(Managers.ROTATION.onOnlyOnground((PlayerMoveC2SPacket.OnGroundOnly) packet));
     }
 }
+
